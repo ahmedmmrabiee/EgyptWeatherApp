@@ -62,7 +62,7 @@ class HomeVC: UIViewController {
     @IBAction func changeCityButton(_ sender: Any) {
         if let toChangeCityView = storyboard?.instantiateViewController(withIdentifier: "ChangeCityID") as? ChangeCityVC {
         toChangeCityView.cityNameFromHome = cityNameLabel.text!
-        //navigationController?.pushViewController(toChangeCityView, animated: true)
+      
         present(toChangeCityView, animated: true)
     }
   }
