@@ -250,7 +250,7 @@
                                 </constraints>
                             </view>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BS6-GX-dcG">
-                                <rect key="frame" x="20" y="133.5" width="280" height="142"/>
+                                <rect key="frame" x="20" y="134" width="280" height="142"/>
                             </pickerView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gtu-0x-J7Z" userLabel="SaveBtnSV">
                                 <rect key="frame" x="50" y="305.5" width="220" height="28.5"/>
